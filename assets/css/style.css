@@ -1,0 +1,360 @@
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* colors */
+.bgc-blueish {
+    background: linear-gradient(0deg, rgba(31,20,204,1) 0%, rgba(9,9,121,1) 49%, rgba(10,56,65,1) 100%);
+}
+
+.bgc-blueish2 {
+    background: linear-gradient(180deg, rgba(31,20,204,1) 0%, rgba(9,9,121,1) 49%, rgba(10,56,65,1) 100%);
+}
+
+.bg-tw {
+    background-color: rgba(255, 255, 255, 81%);
+}
+
+.c-white {
+    color: whitesmoke;
+}
+
+.c-black {
+    color: black;
+}
+
+/* classes */
+.a {
+    align-self: center;
+}
+
+.b {
+    bottom: 0rem;
+}
+
+.bd {
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black;
+}
+
+.bd-2 {
+    border: .15rem solid rgb(13, 13, 34);
+    border-radius: 10%;
+}
+
+.br {
+    border-right: black solid .01;
+}
+
+.bl {
+    border-left: black solid .01;
+}
+
+.bg-n {
+    background: none;
+}
+
+.bn {
+    border: none;
+}
+
+.bo {
+    border: outset;
+}
+
+.br-1 {
+    border-radius: 1rem;
+}
+
+.bblr {
+    border-bottom-left-radius: 1rem;
+}
+
+.bbrr {
+    border-bottom-right-radius: 1rem;
+}
+
+.cbtn {
+    border-left: black solid .01rem;
+    border-right: black solid .01rem;
+}
+
+.bt {
+    border-top: 4px double black;
+}
+
+.bb {
+    border-bottom: black solid .02rem;
+}
+
+.db {
+    display: block;
+}
+
+.df {
+    display: flex
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.ff {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fg-1 {
+    flex-grow: 1;
+}
+
+.fg-2 {
+    flex: 3;
+}
+
+.fl {
+    flex: 45%;
+}
+
+.fl-2 {
+    flex: 50%;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.fz-1 {
+    font-size: 2rem;
+}
+
+.g {
+    gap: 2rem;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 7rem;
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+.mh-100 {
+    min-height: 100vh;
+}
+
+.mh-100 {
+    max-height: 100%;
+}
+
+.mw-100 {
+    min-width: 100%;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+.p {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.pr {
+    padding-right: 0.5rem;
+}
+
+.pt {
+    padding-top: 1rem;
+}
+
+.pt-2 {
+    padding-top: 1.5rem;
+}
+
+.pt-3 {
+    padding-top: .5rem;
+}
+
+.pb-5 {
+    padding-bottom: .5rem;
+}
+
+.p-a {
+    position: absolute;
+}
+
+
+.ta-c {
+    text-align: center;
+}
+
+.ta-j {
+    text-align: justify;
+}
+
+.td-n {
+    text-decoration: none;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+
+.w-60 {
+    width: 60%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.ws-nw {
+    white-space: nowrap;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+/* menu */
+.m-b {
+    text-align: center;
+}
+
+.m-c {
+    display: none;
+    position: absolute;
+    background-color: rgb(236, 232, 232);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    min-width: 10rem;
+    z-index: 1;
+    line-height: 2;
+}
+
+.m-c a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* work cards */
+.projectCard {
+    width: 40%;
+    min-width: 30%;
+    position: relative;
+    border: black solid .01rem;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+
+/* work Buttons */
+.projectBtn {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 81%);;
+}
+
+.projectBtn:hover {
+    background-color: rgb(209 203 228 / 81%);
+}
+
+.projectBtn:active {
+    border: inset;
+    background-color: rgba(169, 165, 182, 0.81);
+}
+
+/* media query */
+@media (max-width:768px) {
+    /* menu display */
+    nav:hover .m-c {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a:hover {
+        background-color: gray;
+    }
+
+
+    /* classes */
+    .fd-c\@sml {
+        flex-direction: column;
+    }
+
+    .m-c a {
+        color: black;
+    }
+
+    .m-3\@sml {
+        margin: 0;
+    }
+
+    .ta-c\@sml {
+        text-align: center;
+    }
+
+    .w-60\@sml {
+        width: 60%;
+
+    }
+}
+
+
+@media (min-width: 768px) {
+    .d\@lrg {
+        display: flex;
+        background: none;
+        box-shadow: none;
+        z-index: 0;
+    }
+    .dn\@lrg {
+        display: none;
+    }
+
+    .fz-1\@lrg {
+        font-size: 5rem;
+    }
+
+    .fz-2\@lrg {
+        font-size: 2.75rem;
+    }
+
+    .pl-2\@lrg {
+        padding-left: 4rem;
+    }
+
+    .pl-3\@lrg {
+        padding-left: 2rem;
+    }
+
+    .pt-1\@lrg {
+        padding-top: 1rem;
+    }
+    
+    .pt-2\@lrg {
+        padding-top: 2rem;
+    }
+    
+    .pt-6\@lrg {
+        padding-top: 6rem;
+    }
+
+    .w100\@lrg {
+        width: 100%;
+    }
+}
