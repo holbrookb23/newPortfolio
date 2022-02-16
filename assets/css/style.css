@@ -292,7 +292,11 @@ footer {
 
 
     /* classes */
-    .fd-c\@sml {
+    .d-f-sm {
+        display: flex;
+    }
+
+    .fd-c-sm{
         flex-direction: column;
     }
 
@@ -311,6 +315,10 @@ footer {
     .w-60\@sml {
         width: 60%;
 
+    }
+
+    .w-100-sm {
+        width: 100%;
     }
 }
 

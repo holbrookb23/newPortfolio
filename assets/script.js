@@ -3,19 +3,19 @@ const projects = [
         name: "Weather Week",
         deployed: "https://holbrookb23.github.io/weatherWeek/",
         repo: "https://github.com/holbrookb23/weatherWeek",
-        img: "./assets/img/projects/weatherWeek2.png",
+        img: "./newPortfolio/assets/img/projects/weatherWeek2.png",
     },
     {
         name: "Quiz Game",
         deployed: "https://holbrookb23.github.io/quizGame/",
         repo: "https://github.com/holbrookb23/quizGame",
-        img: "./assets/img/projects/quizGame.png",
+        img: "./newPortfolio/assets/img/projects/quizGame.png",
     },
     {
         name: "Best Shot",
         deployed: "https://thundercats-4ever.github.io/project/",
         repo: "https://github.com/thundercats-4ever/project",
-        img: "./assets/img/projects/bestShot.png",
+        img: "./newPortfolio/assets/img/projects/bestShot.png",
     },
 ];
 
@@ -26,6 +26,7 @@ const projects = [
 projects.forEach((project) =>{
     const projectCard = document.createElement("div");
     projectCard.classList.add("projectCard");
+    projectCard.classList.add("w-100-sm");
     projectCard.innerHTML = `
     <img src="${project.img}" alt="" class="br-1 w-100">
     <div class="b br-1 bg-tw z-1 p-a w-100">
