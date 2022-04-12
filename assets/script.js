@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: "Scott's Tots",
+        deployed: "https://project-two-threeandalady.herokuapp.com/login",
+        repo: "https://github.com/threemenandalady/project-two",
+        img: "./newPortfolio/assets/img/projects/scottTots.png",
+
+    },
+    {
         name: "Weather Week",
         deployed: "https://holbrookb23.github.io/weatherWeek/",
         repo: "https://github.com/holbrookb23/weatherWeek",
