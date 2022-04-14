@@ -32,7 +32,7 @@ the footer only has a brief message thanking the user for visiting the page.
 
 #  url #   
 
-A [Link](https://holbrookb23.github.io/myPortfolio/)
+A [Link](https://holbrookb23.github.io/newPortfolio/)
 
 # screenshot of page #
 
