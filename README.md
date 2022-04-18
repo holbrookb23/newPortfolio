@@ -36,4 +36,4 @@ A [Link](https://holbrookb23.github.io/newPortfolio/)
 
 # screenshot of page #
 
-! [Image](./assets/img/screenshot.png)
+![Image](./assets/img/screenshot.png)
