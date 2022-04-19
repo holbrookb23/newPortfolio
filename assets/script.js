@@ -3,26 +3,26 @@ const projects = [
         name: "Scott's Tots",
         deployed: "https://project-two-threeandalady.herokuapp.com/login",
         repo: "https://github.com/threemenandalady/project-two",
-        img: "./newPortfolio/assets/img/projects/scottTots.png",
+        img: "./assets/img/projects/scottTots.png",
 
     },
     {
         name: "Weather Week",
         deployed: "https://holbrookb23.github.io/weatherWeek/",
         repo: "https://github.com/holbrookb23/weatherWeek",
-        img: "./newPortfolio/assets/img/projects/weatherWeek2.png",
+        img: "./assets/img/projects/weatherWeek2.png",
     },
     {
         name: "Quiz Game",
         deployed: "https://holbrookb23.github.io/quizGame/",
         repo: "https://github.com/holbrookb23/quizGame",
-        img: "./newPortfolio/assets/img/projects/quizGame.png",
+        img: "./assets/img/projects/quizGame.png",
     },
     {
         name: "Best Shot",
         deployed: "https://thundercats-4ever.github.io/project/",
         repo: "https://github.com/thundercats-4ever/project",
-        img: "./newPortfolio/assets/img/projects/bestShot.png",
+        img: "./assets/img/projects/bestShot.png",
     },
 ];
 
